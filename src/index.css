@@ -1,1 +1,94 @@
 @import 'tailwindcss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-black dark:text-white;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-zinc-800 dark:text-zinc-100;
+  }
+
+  p {
+    @apply text-zinc-600 dark:text-zinc-300;
+  }
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url('/src/assets/fonts/Josefin_Sans/static/JosefinSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url('/src/assets/fonts/Josefin_Sans/static/JosefinSans-Italic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url('/src/assets/fonts/Josefin_Sans/static/JosefinSans-Light.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url('/src/assets/fonts/Josefin_Sans/static/JosefinSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer utilities {
+  .logo {
+    @apply size-12 md:size-16 rounded-full p-1;
+  }
+  .nav-bar {
+    @apply fixed z-50 w-[90%] md:w-[60%] left-1/2 -translate-x-1/2 
+    bottom-5 md:top-5 md:bottom-auto px-4 py-3 
+    bg-zinc-400/30 dark:bg-gray-900/40 backdrop-blur-sm
+    rounded-full shadow-xl flex items-center 
+    justify-between gap-4 flex-wrap;
+  }
+
+  .tooltip {
+    @apply hidden md:block absolute top-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 text-xs rounded bg-gray-800 text-white dark:bg-gray-900 dark:text-gray-300 opacity-0 group-hover:opacity-100 transition-opacity duration-500 whitespace-nowrap z-10;
+  }
+
+  .custom-btn {
+    @apply bg-white text-black cursor-pointer px-6 py-2 rounded-full font-bold text-xs md:text-xl flex-grow dark:bg-black dark:text-white dark:border-1 shadow-sm;
+  }
+
+  .font-josefin {
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  @keyframes blink {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .animate-blink {
+    animation: blink 1s step-start infinite;
+  }
+}
