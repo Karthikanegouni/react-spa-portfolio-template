@@ -12,7 +12,7 @@ const iconMap = {
 export default function Header({ active }) {
   return (
     <nav className="nav-bar">
-      <a href="#home" className="hidden md:block flex justify-center items-center md:mr-4">
+      <a href="#home" className="hidden md:flex justify-center items-center md:mr-4">
         <img src={user} alt="user-logo" className="logo" />
       </a>
 

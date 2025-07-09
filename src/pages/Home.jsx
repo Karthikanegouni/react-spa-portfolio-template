@@ -29,7 +29,7 @@ export default function Home() {
           aria-label="Introduction"
         >
           <header className="max-w-[100%] mx-auto md:mx-0">
-            <h1 className="text-lg md:text-4xl font-bold mb-4 intro">
+            <h1 className="text-2xl md:text-4xl font-bold mb-4 intro">
               {intro}
               <motion.span
                 className="inline-block [transform-origin:70%_70%]"
