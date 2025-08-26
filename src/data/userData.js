@@ -18,5 +18,5 @@ export default {
     laptop: laptopImage,
   },
 
-  resumeLink: 'https://drive.google.com/file/d/12Nr5j3zbke4bcvm2niXljrMmhG9por1b/view?usp=sharing',
+  resumeLink: 'https://drive.google.com/file/d/1H0ZtxCtKBga0TV__cikdxQvtd1SxrZyd/view?usp=sharing',
 }

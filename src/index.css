@@ -1,6 +1,6 @@
 @import 'tailwindcss';
 @tailwind base;
-/* @tailwind components; */
+@tailwind components;
 @tailwind utilities;
 
 @layer base {
@@ -20,11 +20,15 @@
   p {
     @apply text-zinc-600 dark:text-zinc-300;
   }
+
+  .font-josefin {
+    font-family: 'Josefin Sans', sans-serif;
+  }
 }
 
 @font-face {
   font-family: 'Josefin Sans';
-  src: url('/src/assets/fonts/Josefin_Sans/static/JosefinSans-Bold.ttf') format('truetype');
+  src: url('./assets/fonts/Josefin_Sans/static/JosefinSans-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -32,23 +36,23 @@
 
 @font-face {
   font-family: 'Josefin Sans';
-  src: url('/src/assets/fonts/Josefin_Sans/static/JosefinSans-Italic.ttf') format('truetype');
-  font-weight: 300;
+  src: url('./assets/fonts/Josefin_Sans/static/JosefinSans-Italic.ttf') format('truetype');
+  font-weight: 400;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Josefin Sans';
-  src: url('/src/assets/fonts/Josefin_Sans/static/JosefinSans-Light.ttf') format('truetype');
-  font-weight: 200;
+  src: url('./assets/fonts/Josefin_Sans/static/JosefinSans-Light.ttf') format('truetype');
+  font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Josefin Sans';
-  src: url('/src/assets/fonts/Josefin_Sans/static/JosefinSans-Regular.ttf') format('truetype');
+  src: url('./assets/fonts/Josefin_Sans/static/JosefinSans-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -58,6 +62,7 @@
   .logo {
     @apply size-12 md:size-16 rounded-full p-1;
   }
+
   .nav-bar {
     @apply fixed z-50 w-[90%] md:w-[60%] left-1/2 -translate-x-1/2 
     bottom-5 md:top-5 md:bottom-auto px-4 py-3 
@@ -71,11 +76,7 @@
   }
 
   .custom-btn {
-    @apply bg-white text-black cursor-pointer px-6 py-2 rounded-full font-bold text-xs md:text-xl flex-grow dark:bg-black dark:text-white dark:border-1 shadow-sm;
-  }
-
-  .font-josefin {
-    font-family: 'Josefin Sans', sans-serif;
+    @apply bg-white text-black cursor-pointer px-6 py-2 rounded-full font-bold text-xs md:text-xl flex-grow dark:bg-black dark:text-white dark:border shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2;
   }
 
   @keyframes blink {
