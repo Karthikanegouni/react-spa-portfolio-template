@@ -1,27 +1,58 @@
-# Anegouni Karthik Goud | Portfolio
+# Anegouni Karthik Goud | Personal Portfolio
 
-### Overview
+This repository contains the complete source code for my personal portfolio website.  
+Designed as a single-page application, it serves as a dynamic and comprehensive showcase of my skills as a **MERN stack developer**.
 
-This is my personal portfolio website, a comprehensive showcase of my skills and projects as a MERN stack developer. It is designed to be a central hub for my work, demonstrating my proficiency in building responsive and dynamic web applications.
+The purpose of this site is to provide a central, professional hub where recruiters and peers can explore my projects and understand my technical capabilities in building modern, responsive, and data-driven web applications.
 
-### Key Technologies
+---
 
-- **React.js**: For a modular and component-based UI.
-- **Tailwind CSS**: For efficient and responsive styling.
-- **Vite**: For a fast development experience.
-- **Framer Motion**: To add smooth, engaging animations.
+## Overview
 
-### Featured Projects
+This portfolio is a significant milestone in my **#200DaysOfCode journey with NxtWave**.  
+The development process focused on transforming raw concepts into a polished, production-ready website.
 
-- **NxtTrendz**: A full-stack e-commerce app with a secure login system and protected routes.
-- **Express.js APIs**: A backend project showcasing RESTful API principles and CRUD operations.
-- **React Practices**: A collection of mini-projects demonstrating core React concepts.
+Key takeaways from building this project:
+
+- Component-based architecture for scalability.
+- Utility-first styling for efficiency.
+- Seamless integration of libraries to enhance user experience.
+- Icons integrated using Lucide React
+
+---
+
+## Tech Stack
+
+The project is powered by a modern and versatile stack:
+
+- [**React.js**](https://react.dev/) → Modular, component-based UI for maintainability.
+- [**Vite**](https://vitejs.dev/) → Lightning-fast dev server and optimized build system.
+- [**Tailwind CSS**](https://tailwindcss.com/) → Utility-first styling, ensuring responsive design with zero custom CSS.
+- [**Framer Motion**](https://www.framer.com/motion/) → Smooth, performance-optimized animations for an engaging UI.
+- [**Lucide React**](https://lucide.dev/) → Open-source icon library providing crisp, consistent, and scalable icons.
+
+---
+
+## Featured Projects
+
+The portfolio highlights a curated selection of my MERN stack projects:
+
+- **NxtTrendz**  
+  A full-stack e-commerce app with authentication, protected routes, and complex data flows.
+
+- **Express.js APIs**  
+  A backend-only project featuring a complete RESTful API with CRUD operations.
+
+- **React Practices**  
+  A collection of mini-projects focusing on core React concepts like state management, hooks, and lifecycles.
+
+---
 
 ### Getting Started
 
 1.  Clone the repository:
     ```
-    git clone [https://github.com/Karthikanegouni/react-spa-portfolio-template.git](https://github.com/Karthikanegouni/react-spa-portfolio-template.git)
+    git clone https://github.com/Karthikanegouni/react-spa-portfolio-template.git
     ```
 2.  Install dependencies:
     ```
@@ -36,3 +67,4 @@ This is my personal portfolio website, a comprehensive showcase of my skills and
 
 - **GitHub**: [github.com/Karthikanegouni](https://github.com/Karthikanegouni)
 - **LinkedIn**: [linkedin.com/in/anegouni-karthik-goud/](https://www.linkedin.com/in/anegouni-karthik-goud/)
+- **[Live Portfolio](https://akarthikgoud.netlify.app)**
