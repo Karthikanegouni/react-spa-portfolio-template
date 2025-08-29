@@ -6,6 +6,8 @@ Designed as a single-page application, it serves as a dynamic and comprehensive 
 The purpose of this site is to provide a central, professional hub where recruiters and peers can explore my projects and understand my technical capabilities in building modern, responsive, and data-driven web applications.
 
 ---
+## Demo
+- **[Live Portfolio](https://akarthikgoud.netlify.app)**
 
 ## Overview
 
@@ -67,4 +69,4 @@ The portfolio highlights a curated selection of my MERN stack projects:
 
 - **GitHub**: [github.com/Karthikanegouni](https://github.com/Karthikanegouni)
 - **LinkedIn**: [linkedin.com/in/anegouni-karthik-goud/](https://www.linkedin.com/in/anegouni-karthik-goud/)
-- **[Live Portfolio](https://akarthikgoud.netlify.app)**
+
