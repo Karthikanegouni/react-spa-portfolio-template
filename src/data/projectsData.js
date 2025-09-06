@@ -5,7 +5,7 @@ export const projects = [
     description:
       'A React portfolio website built with React, Vite, and Tailwind. Showcases key React concepts like state management, and conditional rendering.',
     image: 'https://placehold.co/600x400/22c55e/ffffff?text=React Portfolio',
-    projectUrl: '#',
+    projectUrl: 'https://akarthikgoud.netlify.app',
     githubUrl: 'https://github.com/Karthikanegouni/react-spa-portfolio-template',
   },
   {
