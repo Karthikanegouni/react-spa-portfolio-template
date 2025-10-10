@@ -4,13 +4,11 @@ import { projects } from '../data/projectsData' // Import the project data from 
 
 // Animation variants for the container
 const containerVariants = {
-  hidden: { opacity: 0, y: 50 },
+  hidden: { opacity: 0 },
   visible: {
     opacity: 1,
-    y: 0,
     transition: {
-      duration: 0.5,
-      staggerChildren: 0.2, // Stagger the children's animation
+      staggerChildren: 0.1,
     },
   },
 }
@@ -19,7 +17,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="py-20 px-4 sm:px-10 font-josefin relative min-h-screen flex flex-col items-center justify-center"
+      className="py-5 sm:py-20 px-4 sm:px-10  font-josefin relative min-h-screen flex flex-col items-center justify-center"
     >
       <div className="absolute inset-0 -z-10 min-h-screen w-full bg-zinc-300 dark:bg-slate-950">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#bfbfbf_1px,transparent_1px),linear-gradient(to_bottom,#bfbfbf_1px,transparent_1px)] dark:bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
@@ -28,7 +26,7 @@ export default function Projects() {
       <motion.div
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.2 }}
+        viewport={{ once: true, amount: 0 }}
         variants={containerVariants}
         className="w-full max-w-7xl mx-auto mt-10"
       >

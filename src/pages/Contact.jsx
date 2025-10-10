@@ -80,7 +80,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="relative min-h-screen flex flex-col items-center justify-center px-4 sm:px-10 py-20 font-josefin select-none overflow-hidden"
+      className="relative min-h-screen flex flex-col items-center justify-center px-4 sm:px-10 py-5 sm:py-20 font-josefin select-none overflow-hidden"
     >
       <div className="absolute inset-0 -z-10 min-h-screen w-full bg-zinc-300 dark:bg-slate-950">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#bfbfbf_1px,transparent_1px),linear-gradient(to_bottom,#bfbfbf_1px,transparent_1px)] dark:bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
