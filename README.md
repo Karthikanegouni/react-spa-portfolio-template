@@ -1,52 +1,50 @@
 # Anegouni Karthik Goud | Personal Portfolio
 
-This repository contains the complete source code for my personal portfolio website.  
-Designed as a single-page application, it serves as a dynamic and comprehensive showcase of my skills as a **MERN stack developer**.
+[![License](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
+[![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?logo=framer&logoColor=white)](https://www.framer.com/motion/)
 
-The purpose of this site is to provide a central, professional hub where recruiters and peers can explore my projects and understand my technical capabilities in building modern, responsive, and data-driven web applications.
-
----
-## Demo
-- **[Live Portfolio](https://akarthikgoud.netlify.app)**
-
-## Overview
-
-This portfolio is a significant milestone in my **#200DaysOfCode journey with NxtWave**.  
-The development process focused on transforming raw concepts into a polished, production-ready website.
-
-Key takeaways from building this project:
-
-- Component-based architecture for scalability.
-- Utility-first styling for efficiency.
-- Seamless integration of libraries to enhance user experience.
-- Icons integrated using Lucide React
+This repository contains the source code for my personal portfolio website, built as a **React single-page application** with dynamic routing.  
+It showcases my skills as a **MERN stack developer**, highlighting projects, technical expertise, and UI/UX capabilities.
 
 ---
 
-## Tech Stack
+## 🌐 Live Demo
 
-The project is powered by a modern and versatile stack:
-
-- [**React.js**](https://react.dev/) → Modular, component-based UI for maintainability.
-- [**Vite**](https://vitejs.dev/) → Lightning-fast dev server and optimized build system.
-- [**Tailwind CSS**](https://tailwindcss.com/) → Utility-first styling, ensuring responsive design with zero custom CSS.
-- [**Framer Motion**](https://www.framer.com/motion/) → Smooth, performance-optimized animations for an engaging UI.
-- [**Lucide React**](https://lucide.dev/) → Open-source icon library providing crisp, consistent, and scalable icons.
+[**View Portfolio**](https://akarthikgoud.netlify.app)
 
 ---
 
-## Featured Projects
+## 🚀 Overview
 
-The portfolio highlights a curated selection of my MERN stack projects:
+Part of my **#200DaysOfCode journey with NxtWave**, this portfolio demonstrates transforming raw ideas into a polished, production-ready website.
 
-- **NxtTrendz**  
-  A full-stack e-commerce app with authentication, protected routes, and complex data flows.
+**Key Highlights:**
 
-- **Express.js APIs**  
-  A backend-only project featuring a complete RESTful API with CRUD operations.
+- Component-based architecture for maintainability and scalability
+- Utility-first styling with Tailwind CSS for responsive design
+- Smooth, interactive animations with Framer Motion
+- Crisp, consistent icons via Lucide React
 
-- **React Practices**  
-  A collection of mini-projects focusing on core React concepts like state management, hooks, and lifecycles.
+---
+
+## 🛠 Tech Stack
+
+- **React.js** – Component-based UI development
+- **Vite** – Lightning-fast development and optimized builds
+- **Tailwind CSS** – Utility-first responsive styling
+- **Framer Motion** – Animations and page transitions
+- **Lucide React** – Open-source icon library
+
+---
+
+## 💼 Featured Projects
+
+- **NxtTrendz** – Full-stack e-commerce app with authentication, protected routes, and complex data flows
+- **Express.js APIs** – Backend project demonstrating RESTful APIs with CRUD operations
+- **React Practices** – Mini-projects exploring React hooks, state management, and lifecycle methods
 
 ---
 
@@ -69,4 +67,3 @@ The portfolio highlights a curated selection of my MERN stack projects:
 
 - **GitHub**: [github.com/Karthikanegouni](https://github.com/Karthikanegouni)
 - **LinkedIn**: [linkedin.com/in/anegouni-karthik-goud/](https://www.linkedin.com/in/anegouni-karthik-goud/)
-
