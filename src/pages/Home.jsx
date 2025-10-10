@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import userData from '../data/userData'
 import TypingAnimation from '../components/TypingAnimation'
+import { Link } from 'react-router-dom'
 
 const {
   name,
@@ -27,15 +28,10 @@ export default function Home() {
 
       <article className="w-full max-w-[1246px] mx-auto grid md:grid-cols-2 gap-10 items-center">
         {/* Intro content */}
-        <div
-          className="dark:text-white text-center md:text-left flex flex-col justify-center order-0 lg:order-0"
-        >
+        <div className="dark:text-white text-center md:text-left flex flex-col justify-center order-0 lg:order-0">
           <header className="max-w-[100%] mx-auto md:mx-0">
             {/* Main heading */}
-            <h1
-              id="intro-heading"
-              className="text-2xl md:text-4xl font-bold mb-4 intro"
-            >
+            <h1 id="intro-heading" className="text-2xl md:text-4xl font-bold mb-4 intro">
               {intro}
               <motion.span
                 className="inline-block [transform-origin:70%_70%]"
@@ -110,19 +106,17 @@ export default function Home() {
         className="flex flex-row md:flex-row justify-center items-center gap-3 md:gap-6 lg:mt-16 mt-6"
         aria-label="Primary actions"
       >
-        <a href="#projects">
+        <Link to="/projects">
           <button
             className="custom-btn"
             aria-label="View portfolio projects of Anegouni Karthik Goud"
           >
             View Projects
           </button>
-        </a>
+        </Link>
+
         <a href={resumeLink} target="_blank" rel="noopener noreferrer">
-          <button
-            className="custom-btn"
-            aria-label="Download resume of Anegouni Karthik Goud"
-          >
+          <button className="custom-btn" aria-label="Download resume of Anegouni Karthik Goud">
             Download Resume
           </button>
         </a>
