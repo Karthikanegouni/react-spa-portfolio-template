@@ -18,7 +18,7 @@ const cardVariants = {
 const Project = ({ title, description, image, projectUrl, githubUrl }) => {
   return (
     <motion.div
-      className="bg-zinc-100 dark:bg-zinc-900 rounded-2xl overflow-hidden shadow-lg transition-transform duration-300 hover:scale-[1.01]"
+      className="bg-zinc-100 dark:bg-zinc-800 rounded-2xl overflow-hidden shadow-lg transition-transform duration-300 hover:scale-[1.01]"
       variants={cardVariants}
       whileHover={{ y: -5 }}
     >
@@ -54,15 +54,17 @@ const Project = ({ title, description, image, projectUrl, githubUrl }) => {
           )}
 
           {/* GitHub Button */}
-          <a
-            href={githubUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center px-4 py-2 bg-zinc-200 dark:bg-zinc-700 hover:bg-zinc-400 dark:hover:bg-zinc-500 text-zinc-900 dark:text-zinc-200 font-semibold rounded-md transition-colors duration-300"
-          >
-            <Github />
-            GitHub
-          </a>
+          {projectUrl !== '' && (
+            <a
+              href={githubUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-4 py-2 bg-zinc-200 dark:bg-zinc-700 hover:bg-zinc-400 dark:hover:bg-zinc-500 text-zinc-900 dark:text-zinc-200 font-semibold rounded-md transition-colors duration-300 "
+            >
+              <Github />
+              GitHub
+            </a>
+          )}
         </div>
       </div>
     </motion.div>
