@@ -1,6 +1,6 @@
 const aboutData = {
   title: 'About Me',
-  bio: 'A highly motivated Computer Science graduate with a strong foundation in MERN stack development. I specialize in building responsive, scalable, and user-centric web applications. My passion lies in solving complex problems and continuously learning new technologies to deliver innovative and efficient software solutions.',
+  bio: 'I’m a Computer Science graduate and a MERN Stack Developer, trained at NxtWave. I have strong hands-on experience in building responsive and modular web applications using React.js, JavaScript, HTML, CSS, and Tailwind CSS. I work comfortably in both Linux and Windows environments, and I regularly use tools like Vite, Git, GitHub, and Postman etc.',
   education: [
     'Bachelor of Technology in Computer Science & Engineering (CSE/CSM)',
     'Ace Engineering College, Hyderabad (2020-2024)',
