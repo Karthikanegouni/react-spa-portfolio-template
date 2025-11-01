@@ -115,11 +115,11 @@ export default function Home() {
           </button>
         </Link>
 
-        <a href={resumeLink} target="_blank" rel="noopener noreferrer">
-          <button className="custom-btn" aria-label="Download resume of Anegouni Karthik Goud">
-            Download Resume
+        <Link to="/contact">
+          <button className="custom-btn" aria-label="Contact Anegouni Karthik Goud">
+            Contact Me
           </button>
-        </a>
+        </Link>
       </nav>
     </section>
   )
