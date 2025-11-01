@@ -11,7 +11,6 @@ const {
   shortNote,
   skills,
   images: { user, laptop },
-  resumeLink,
 } = userData
 
 export default function Home() {
