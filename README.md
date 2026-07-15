@@ -13,7 +13,7 @@ It showcases my skills as a **MERN stack developer**, highlighting projects, tec
 
 ## 🌐 Live Demo
 
-[**View Portfolio**](https://akarthikgoud.netlify.app)
+[**View Portfolio**](https://karthikgoud.netlify.app/)
 
 ---
 
